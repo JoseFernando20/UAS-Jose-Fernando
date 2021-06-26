@@ -1,6 +1,6 @@
 function preview(){
     var x = document.getElementsByClassName("example");
-    fetch("http://openlibrary.org/search.json?title=indonesia") //panggil API
+    fetch("http://openlibrary.org/search.json?title=harry+potter") //panggil API
           .then(Response => Response.json())
           .then(data => {
             console.log(data.docs);
